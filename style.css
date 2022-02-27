@@ -1,0 +1,58 @@
+body {
+    font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+    box-sizing: border-box;
+    background: linear-gradient(to right, red, yellow);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+input[type="color"] {
+height: 30px;
+width: 70px;
+margin: 0 .3em;
+cursor: pointer;
+}
+
+#random {
+border-style: none;
+border-radius: 16px;
+color: white;
+text-align: center;
+font-size: 1.1rem;
+letter-spacing: .1em;
+padding: .2em 2em;
+margin: 0 .3em;
+height: 30px;
+background: #5177cd;
+
+
+}
+
+#random:hover{
+    cursor: pointer;
+}
